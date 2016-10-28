@@ -2,7 +2,7 @@
 \brief A CoAP resource which allows an application to GET/SET the state of the
    error LED.
 */
-
+//aaaa
 #include "opendefs.h"
 #include "cleds.h"
 #include "opencoap.h"
