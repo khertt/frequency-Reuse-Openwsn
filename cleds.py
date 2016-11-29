@@ -23,5 +23,13 @@ print ''.join(['%02x'%b for b in p])
 
 #p = c.PUT('coap://[{0}]/l'.format(MOTE_IP),payload = [ord('1')],)
 
-
+x=''.join(['%02x'%b for b in p])
+print type(x)
+y=x.split("54")
+print y
 c.close()
+
+#direccion,tipo,frecuencia,offset
+
+
+#4445c2fc30303031303006ac7732cd303d
